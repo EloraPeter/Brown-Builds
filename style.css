@@ -456,31 +456,37 @@ header #hero .center .bottom i:hover {
 @media only screen and (min-width: 1200px) {
   header #hero .center .middle h1 {
     font-size: 70px;
+    margin-top: 15%;
   }
 } 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   header #hero .center .middle h1 {
     font-size: 60px;
+    margin-top: 20%;
   }
 } 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   header #hero .center .middle h1 {
     font-size: 50px;
+    margin-top: 25%;
   }
 } 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   header #hero .center .middle h1 {
     font-size: 45px;
+    margin-top: 30%;
   }
 } 
 @media only screen and (min-width: 481px) and (max-width: 575px) {
   header #hero .center .middle h1 {
     font-size: 40px;
+    margin-top: 35%;
   }
 } 
 @media only screen and (min-width: 300px) and (max-width: 480px) {
   header #hero .center .middle h1 {
     font-size: 35px;
+    margin-top: 40%;
   }
 } /* -----------------------History----------------------- */
 #history {
@@ -547,29 +553,29 @@ header #hero .center .bottom i:hover {
 } 
 @media only screen and (min-width: 1200px) {
   #history .hist-container .hist-text {
-    width: 35%;
+    width: 50%;
     margin-left: 50px;
   }
   #history .hist-container .hist-text h2 {
-    font-size: 38px;
+    font-size: 2.5rem;
   }
   #history .hist-container .hist-text p {
-    font-size: 18px;
+    font-size: 1.3rem;
   }
   #history .hist-container .hist-link {
-    margin-left: 72%;
+    margin-left: 70%;
   }
 } 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   #history .hist-container .hist-text {
-    width: 40%; 
+    width: 60%; 
     margin-left: 40px;
   }
   #history .hist-container .hist-text h2 {
-    font-size: 35px;
+    font-size: 2.3rem;
   }
   #history .hist-container .hist-text p {
-    font-size: 16px;
+    font-size: 1.2rem;
   }
   #history .hist-container .hist-link {
     margin-left: 68%;
@@ -577,14 +583,14 @@ header #hero .center .bottom i:hover {
 } 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #history .hist-container .hist-text {
-    width: 45%; 
+    width: 60%; 
     margin-left: 30px;
   }
   #history .hist-container .hist-text h2 {
-    font-size: 30px;
+    font-size: 2rem;
   }
   #history .hist-container .hist-text p {
-    font-size: 15px;
+    font-size: 1rem;
   }
   #history .hist-container .hist-link {
     margin-left: 60%;
@@ -592,32 +598,32 @@ header #hero .center .bottom i:hover {
 } 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   #history .hist-container .hist-text {
-    width: 55%; 
+    width: 70%; 
     margin-left: 20px;
   }
   #history .hist-container .hist-text h2 {
     font-size: 28px;
   }
   #history .hist-container .hist-text p {
-    font-size: 14px;
+    font-size: 0.8rem;
   }
   #history .hist-container .hist-link {
-    margin-left: 55%;
+    margin-left: 50%;
   }
 } 
 @media only screen and (min-width: 481px) and (max-width: 575px) {
   #history .hist-container .hist-text {
-    width: 65%; 
+    width: 80%; 
     margin-left: 15px;
   }
   #history .hist-container .hist-text h2 {
     font-size: 25px;
   }
   #history .hist-container .hist-text p {
-    font-size: 13px;
+    font-size: 0.8rem;
   }
   #history .hist-container .hist-link {
-    margin-left: 50%;
+    margin-left: 40%;
   }
 } 
 @media only screen and (min-width: 300px) and (max-width: 480px) {
@@ -629,10 +635,10 @@ header #hero .center .bottom i:hover {
     font-size: 22px;
   }
   #history .hist-container .hist-text p {
-    font-size: 11px;
+    font-size: 0.8rem;
   }
   #history .hist-container .hist-link {
-    margin-left: 48%;
+    margin-left: 38%;
   }
 } 
 
@@ -703,71 +709,90 @@ header #hero .center .bottom i:hover {
 /* Media queries */
 @media only screen and (min-width: 1200px) {
   #architecture .arch-container .arch-text {
-    width: 35%; 
-    margin-left: 58%;
+    width: 50%; 
+    margin-left: 48%;
   }
   #architecture .arch-text h2 {
-    font-size: 40px;
+    font-size: 2.2rem;
   }
   #architecture .arch-text p {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
   #architecture .arch-link p {
-    font-size: 20px;
+    font-size: 1.4rem;
+    padding-bottom: 30px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   #architecture .arch-container .arch-text {
-    width: 40%;
-    margin-left: 55%;
+    width: 60%;
+    margin-left: 38%;
   }
   #architecture .arch-text h2 {
-    font-size: 35px;
+    font-size: 2rem;
   }
   #architecture .arch-text p {
-    font-size: 18px;
+    font-size: 1.4rem;
+  }
+  #architecture .arch-link p {
+    font-size: 1.3rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  #architecture .arch-container {
-    height: auto;
-  }
   #architecture .arch-container .arch-text {
-    width: 45%;
-    margin-left: 50%;
+    width: 70%;
+    margin-left: 30%;
+  }
+  #architecture .arch-text p {
+    font-size: 1.3rem;
+  }
+  #architecture .arch-link p {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (max-width: 767px) {
-  #architecture .arch-container {
-    height: auto;
-  }
   #architecture .arch-container .arch-text {
-    width: 50%;
-    margin-left: 45%;
+    width: 65%;
+    margin-left: 33%;
   }
   #architecture .arch-text h2 {
-    font-size: 30px;
+    font-size: 2.5rem;
   }
   #architecture .arch-text p {
-    font-size: 16px;
+    font-size: 1.2rem;
+  }
+  #architecture .arch-link p {
+    font-size: 1.1rem;
+    padding-bottom: 30px;
   }
 }
 @media only screen and (max-width: 575px) {
-  #architecture .arch-container {
-    height: auto;
-  }
   #architecture .arch-container .arch-text {
-    width: 60%;
-    margin-left: 40%;
+    width: 75%;
+    margin-left: 22%;
+  }
+  #architecture .arch-text p {
+    font-size: 1rem;
+    padding-bottom: 30px;
+  }
+  #architecture .arch-link p {
+    font-size: 0.9rem;
+    padding-bottom: 30px;
   }
 }
 @media only screen and (max-width: 480px) {
-  #architecture .arch-container {
-    height: auto;
-  }
   #architecture .arch-container .arch-text {
-    width: 65%;
-    margin-left: 35%;
+    width: 80%;
+    margin-left: 20%;
+    
+  }
+  #architecture .arch-text p {
+    font-size: 0.9rem;
+    padding-bottom: 30px;
+  }
+  #architecture .arch-link p {
+    font-size: 0.8rem;
+    padding-bottom: 30px;
   }
 } 
 
@@ -792,7 +817,7 @@ header #hero .center .bottom i:hover {
 #interior .int-container .int-text h2 {
   color: #f9f9f9;
   padding-top: 15px;
-  font-size: 35px; /* reduced from 40px */
+  font-size: 35px; 
   font-weight: 500;
 }
 #interior .int-container .int-text h2 span {
@@ -809,7 +834,7 @@ header #hero .center .bottom i:hover {
 }
 #interior .int-container .int-link {
   margin-top: 12%; 
-  margin-left: 60px; 
+  margin-left: 75%; 
 }
 #interior .int-container .int-link p {
   font-size: 18px;
@@ -839,7 +864,7 @@ header #hero .center .bottom i:hover {
 /* Media queries */ 
 @media only screen and (min-width: 1200px) {
   #interior .int-container {
-    height: 70vh;
+    height: 85vh;
   }
   #interior .int-container .int-text {
     width: 35%;
@@ -854,6 +879,9 @@ header #hero .center .bottom i:hover {
   #interior .int-container .int-text p {
     font-size: 20px;
   }
+  #interior .int-container .int-link{
+    margin-left: 67%;
+ }
   #interior .int-container .int-link p {
     font-size: 20px;
   }
@@ -878,6 +906,9 @@ header #hero .center .bottom i:hover {
   #interior .int-container .int-text p {
     font-size: 18px;
   }
+  #interior .int-container .int-link{
+    margin-left: 62%;
+ }
   #interior .int-container .int-link p {
     font-size: 18px;
   }
@@ -902,6 +933,9 @@ header #hero .center .bottom i:hover {
   #interior .int-container .int-text p {
     font-size: 16px;
   }
+  #interior .int-container .int-link{
+    margin-left: 55%;
+ }
   #interior .int-container .int-link p {
     font-size: 16px;
   }
@@ -926,6 +960,9 @@ header #hero .center .bottom i:hover {
   #interior .int-container .int-text p {
     font-size: 15px;
   }
+  #interior .int-container .int-link{
+    margin-left: 43%;
+ }
   #interior .int-container .int-link p {
     font-size: 15px;
   }
@@ -938,7 +975,7 @@ header #hero .center .bottom i:hover {
     height: auto;
   }
   #interior .int-container .int-text {
-    width: 55%;
+    width: 75%;
     margin-left: 25px;
   }
   #interior .int-container .int-text h2 {
@@ -948,10 +985,14 @@ header #hero .center .bottom i:hover {
     font-size: 35px;
   }
   #interior .int-container .int-text p {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  #interior .int-container .int-link{
+     margin-left: 38%;
   }
   #interior .int-container .int-link p {
     font-size: 14px;
+    padding-bottom: 30px;
   }
   #interior .int-container .int-link p span {
     font-size: 22px;
@@ -962,7 +1003,7 @@ header #hero .center .bottom i:hover {
     height: auto;
   }
   #interior .int-container .int-text {
-    width: 60%;
+    width: 80%;
     margin-left: 20px;
   }
   #interior .int-container .int-text h2 {
@@ -974,6 +1015,9 @@ header #hero .center .bottom i:hover {
   #interior .int-container .int-text p {
     font-size: 13px;
   }
+  #interior .int-container .int-link{
+    margin-left: 32%;
+ }
   #interior .int-container .int-link p {
     font-size: 13px;
   }
@@ -1117,6 +1161,7 @@ header #hero .center .bottom i:hover {
   }
   #landscape .land-container .land-link {
     margin-top: 14%;
+    margin-left: 35%;
   }
   #landscape .land-container .land-link p {
     font-size: 16px;
@@ -1144,6 +1189,7 @@ header #hero .center .bottom i:hover {
   }
   #landscape .land-container .land-link {
     margin-top: 12%;
+    margin-left: 40%;
   }
   #landscape .land-container .land-link p {
     font-size: 15px;
@@ -1152,7 +1198,7 @@ header #hero .center .bottom i:hover {
     font-size: 18px;
   }
 } 
-@media only screen and (min-width: 300px) and (max-width: 575px) {
+@media only screen and (min-width: 481px) and (max-width: 575px) {
   #landscape .land-container {
     height: 65vh;
   }
@@ -1171,6 +1217,7 @@ header #hero .center .bottom i:hover {
   }
   #landscape .land-container .land-link {
     margin-top: 10%;
+    margin-left: 35%;
   }
   #landscape .land-container .land-link p {
     font-size: 14px;
@@ -1179,6 +1226,33 @@ header #hero .center .bottom i:hover {
     font-size: 16px;
   }
 } 
+@media only screen and (max-width: 480px) {
+  #landscape .land-container {
+    height: 60vh;
+  }
+  #landscape .land-container .land-text {
+    width: 80%;
+    margin-left: 20%;
+  }
+  #landscape .land-text h2 {
+    font-size: 1.4rem;
+  }
+  #landscape .land-text h2 span {
+    font-size: 32px;
+  }
+  #landscape .land-text p {
+    font-size: 14px;
+  }
+  #landscape .land-container .land-link {
+    margin-top: 10%;
+  }
+  #landscape .land-container .land-link p {
+    font-size: 14px;
+  }
+  #landscape .land-container .land-link p span {
+    font-size: 16px;
+  }
+}
 
 /* ----------------Testimonial-------------------- */
 #testimonials {
@@ -1415,7 +1489,7 @@ header #hero .center .bottom i:hover {
     font-size: 14px;
   }
 } 
-@media only screen and (min-width: 300px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   #testimonials {
     height: auto;
   }
@@ -1535,7 +1609,7 @@ header #hero .center .bottom i:hover {
     padding: 15px 0;
   }
 } 
-@media only screen and (min-width: 300px) and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   #get-quote {
     height: 45vh;
   }
@@ -1568,7 +1642,7 @@ footer .foot-container .our-company {
 footer .foot-container .contact-info p {
   margin-bottom: 10px;
 }
-footer .foot-container .contact-info p:hover {
+footer .foot-container .contact-info p:hover, :active {
   transform: scale(1.1);
 }
 footer .foot-container .contact-info p a {
@@ -1577,7 +1651,7 @@ footer .foot-container .contact-info p a {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-footer .foot-container .contact-info p a:hover {
+footer .foot-container .contact-info p a:hover, :active {
   border-bottom: 2px solid #fff;
 }
 footer .foot-container .quick-links h2 {
@@ -1587,7 +1661,7 @@ footer .foot-container .quick-links ul li {
   list-style: none;
   margin-bottom: 5px;
 }
-footer .foot-container .quick-links ul li:hover {
+footer .foot-container .quick-links ul li:hover, :active {
   transform: scale(1.1);
 }
 footer .foot-container .quick-links ul li a {
@@ -1595,7 +1669,7 @@ footer .foot-container .quick-links ul li a {
   color: #fff;
   transition: 0.3s ease-in-out;
 }
-footer .foot-container .quick-links ul li a:hover {
+footer .foot-container .quick-links ul li a:hover, :active {
   border-bottom: 2px solid #fff;
 }
 footer .foot-container .socials h2 {
@@ -1605,7 +1679,7 @@ footer .foot-container .socials ul li {
   margin-bottom: 5px;
   list-style: none;
 }
-footer .foot-container .socials ul li:hover {
+footer .foot-container .socials ul li:hover, :active {
   transform: scale(1.1);
 }
 footer .foot-container .socials ul li a {
@@ -1617,7 +1691,7 @@ footer .foot-container .socials ul li a i {
   margin-right: 10px;
   font-size: 20px;
 }
-footer .foot-container .socials ul li a:hover {
+footer .foot-container .socials ul li a:hover, :active {
   border-bottom: 2px solid #fff;
 }
 footer .copyright {
@@ -1633,6 +1707,80 @@ footer .copyright a {
 footer .copyright .designer {
   font-size: 7px;
 } 
+/* Footer for large screens (1200px and above) */
+footer {
+  width: 100%;
+  background-color: #290101;
+  color: #fff;
+  bottom: 0;
+}
+footer .foot-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+}
+footer .foot-container .our-company {
+  width: 40%;
+}
+footer .copyright {
+  font-size: 16px;
+  border-top: 1px solid #50210747;
+  text-align: center;
+  padding: 8px 0;
+  opacity: 0.5;
+}
+/* Footer for tablets and smaller laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  footer .foot-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .foot-container .our-company,
+  footer .foot-container .contact-info,
+  footer .foot-container .quick-links,
+  footer .foot-container .socials {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/* Footer for large phones and small tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  footer .foot-container {
+    padding: 15px;
+  }
+  footer .foot-container .our-company {
+    font-size: 14px;
+  }
+  footer .copyright {
+    font-size: 14px;
+  }
+}
+/* Footer for small to medium phones (max-width: 600px) */
+@media (max-width: 600px) {
+  footer .foot-container {
+    padding: 30px;
+  }
+  footer .foot-container .our-company {
+    font-size: 12px;
+  }
+  footer .copyright {
+    font-size: 12px;
+  }
+}
+/* Footer for very small phones (max-width: 400px) */
+@media (max-width: 400px) {
+  footer .foot-container {
+    padding: 5px;
+  }
+  footer .foot-container .our-company {
+    font-size: 10px;
+  }
+  footer .copyright {
+    font-size: 10px;
+  }
+}
 
 /* ----------------Cookies----------------------- */
 #cookiePopup {
