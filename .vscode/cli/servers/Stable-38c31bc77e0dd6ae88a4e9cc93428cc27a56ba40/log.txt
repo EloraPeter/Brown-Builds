@@ -1,0 +1,18 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to \\.\pipe\code-0591cac3-a6f4-4349-a7ab-c64195fec818
+Extension host agent listening on \\.\pipe\code-0591cac3-a6f4-4349-a7ab-c64195fec818
+
+[15:51:47] 
+
+
+
+
+[15:51:47] Extension host agent started.
+[15:51:47] Started initializing default profile extensions in extensions installation folder. file:///c%3A/Users/flore/.vscode-server/extensions
+[15:51:47] Completed initializing default profile extensions in extensions installation folder. file:///c%3A/Users/flore/.vscode-server/extensions
